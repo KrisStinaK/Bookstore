@@ -44,11 +44,12 @@ INSTALLED_APPS = [
     #third-party
     'crispy_forms',
     'crispy_bootstrap5',
-    "allauth",
-    "allauth.account",
+    'allauth',
+    'allauth.account',
     #local 
     'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
+    'books.apps.BooksConfig',
     
 ]
 
