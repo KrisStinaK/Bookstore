@@ -8,10 +8,10 @@
         <img class="bookcover" src="{{ book.cover.url }}" alt="{{ book.title }}">
     {% endif %}
     <h2><a href="">{{ book.title }}</a></h2>
-    <p>Author: {{ book.author }}</p>
-    <p>Price: {{ book.price }}</p>
+    <p>Автор: {{ book.author }}</p>
+    <p>Цена: {{ book.price }} ₽</p>
     <div>
-        <h3>Reviews</h3>
+        <h3>Отзывы</h3>
         <ul>
             {% for review in book.reviews.all %}
             <li>
