@@ -1,4 +1,4 @@
-.myenv
+.venv
 __pycache__/
 db.sqlite3
 docker-compose-prod.yml

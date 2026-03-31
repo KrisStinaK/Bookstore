@@ -1,5 +1,47 @@
 {% extends "_base.html" %}
 {% block title %}About{% endblock title %}
 {% block content %}
-<h1>About Page</h1>
+    <style>
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .about-section {
+            margin-top: 20px;
+        }
+        .mission {
+            font-style: italic;
+            margin-top: 20px;
+        }
+        .contact {
+            margin-top: 30px;
+        }
+    </style>
+    <div class="container">
+        <h1>О нашем книжном магазине</h1>
+        <p>
+            Добро пожаловать в наш уютный книжный магазин! Мы рады предложить вам широкий выбор литературы на любой вкус: от классики и современной прозы до научных изданий и детских книг.
+        </p>
+        <div class="about-section">
+            <h2>Наша история</h2>
+            <p>
+                Основанный в 2010 году, наш магазин стал местом встречи любителей чтения. Мы стремимся создавать атмосферу уюта и вдохновения для всех посетителей.
+            </p>
+        </div>
+        <div class="mission">
+            <h2>Наша миссия</h2>
+            <p>
+                Мы верим, что книги помогают расширять горизонты, вдохновляют и делают мир лучше. Наша задача — сделать книги доступными и любимыми для каждого клиента.
+            </p>
+        </div>
+        <div class="contact">
+            <h2>Контакты</h2>
+            <p>Адрес: ул. Литературная, д. 10, г. Москва</p>
+            <p>Телефон: +7 (495) 123-45-67</p>
+            <p>Email: info@bookstore.ru</p>
+        </div>
+    </div>
 {% endblock content %}
